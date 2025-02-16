@@ -1,0 +1,28 @@
+entities:
+  components:
+    com.meta.components.Name:
+      name: Material.002
+    com.meta.components.PbrMaterial:
+      alphaCutoff: 0.5
+      alphaMode: Opaque
+      baseColorFactor.colorspace: HSL
+      baseColorFactor.data:
+        - 0
+        - 0
+        - 1
+        - 1
+      baseColorFactor.type: color4
+      emissiveFactor.colorspace: RGB
+      emissiveFactor.type: color4
+      roughnessFactor: 1
+      sheenColorFactor.colorspace: RGB
+      sheenColorFactor.type: color3
+      specularColorFactor.colorspace: RGB
+      specularColorFactor.type: color3
+      volumeAttenuationColor.colorspace: RGB
+      volumeAttenuationColor.type: color3
+      baseColorTexture.texture: ref:texture1
+    com.meta.components.StandardMaterial:
+      isDoubleSided: true
+metadata:
+  version: 1.0

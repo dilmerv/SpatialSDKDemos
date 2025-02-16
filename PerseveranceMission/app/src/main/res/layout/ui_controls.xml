@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:background="@drawable/layout_bg"
+    android:clipToOutline="true"
+    >
+  <TextView
+      android:id="@+id/title_text_view"
+      android:layout_width="match_parent"
+      android:layout_height="108dp"
+      android:layout_marginTop="8dp"
+      android:gravity="center"
+      android:text="Controls"
+      android:textColor="#ffffff"
+      android:textSize="60dp"
+      android:textStyle="bold" />
+  <Button
+      android:id="@+id/show_mars_button"
+      android:layout_width="400dp"
+      android:layout_height="100dp"
+      android:layout_gravity="center"
+      android:layout_marginBottom="50dp"
+      android:background="@drawable/button_bg"
+      android:text="@string/show_mars"
+      android:textColor="#ffffff"
+      android:textSize="10pt" />
+  <Button
+      android:id="@+id/show_perseverance_button"
+      android:layout_width="400dp"
+      android:layout_height="100dp"
+      android:layout_gravity="center"
+      android:layout_marginBottom="50dp"
+      android:background="@drawable/button_bg"
+      android:text="@string/show_perseverance"
+      android:textColor="#ffffff"
+      android:textSize="10pt" />
+  <Button
+      android:id="@+id/toggle_day_mode"
+      android:layout_width="400dp"
+      android:layout_height="100dp"
+      android:layout_gravity="center"
+      android:layout_marginBottom="50dp"
+      android:background="@drawable/button_bg"
+      android:text="@string/set_night_mode"
+      android:textColor="#ffffff"
+      android:textSize="10pt" />
+  <Button
+      android:id="@+id/toggle_mr_mode"
+      android:layout_width="400dp"
+      android:layout_height="100dp"
+      android:layout_gravity="center"
+      android:layout_marginBottom="50dp"
+      android:background="@drawable/button_bg"
+      android:text="@string/mr_mode_on"
+      android:textColor="#ffffff"
+      android:textSize="10pt" />
+</LinearLayout>

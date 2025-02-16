@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:background="@drawable/layout_bg"
+    android:clipToOutline="true"
+    >
+  <TextView
+      android:id="@+id/title_text_view"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:gravity="center"
+      android:text="NASA's Perseverance Rover Mission"
+      android:textColor="#ffffff"
+      android:textSize="32dp"
+      android:textStyle="bold" />
+  <WebView
+      android:id="@+id/youtube_video"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+</LinearLayout>

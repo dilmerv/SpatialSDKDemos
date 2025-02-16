@@ -1,0 +1,287 @@
+entities:
+  com.meta.models.Scene:
+    - components:
+        com.meta.components.Name:
+          {}
+        com.meta.components.Scene:
+          nodes:
+            - ref:Sketchfab_model
+      tag: Scene
+  com.meta.models.SceneNode:
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Sphere_Material.002_0_5
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:Object_9
+      tag: Sphere_Material.002_0_5
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 9200ff58b32943abb71f9b9bf8373a3b.fbx_2
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - -1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:RootNode_3
+      tag: 9200ff58b32943abb71f9b9bf8373a3b.fbx_2
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: RootNode (model correction matrix)_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:9200ff58b32943abb71f9b9bf8373a3b.fbx_2
+      tag: RootNode (model correction matrix)_1
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: RootNode (gltf orientation matrix)_0
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - -0
+            - 0
+            - -0
+            - 0
+            - -1
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:RootNode (model correction matrix)_1
+      tag: RootNode (gltf orientation matrix)_0
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: root
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:GLTF_SceneRootNode
+      tag: root
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: RootNode_3
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:Sphere_4
+      tag: RootNode_3
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Sphere_4
+        com.meta.components.SceneNode:
+          matrix:
+            - 100
+            - 0
+            - 0
+            - 0
+            - 0
+            - -1.62920678e-05
+            - -100
+            - 0
+            - 0
+            - 100
+            - -1.62920678e-05
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:Sphere_Material.002_0_5
+      tag: Sphere_4
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Sketchfab_model
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 2.22044605e-16
+            - -1
+            - 0
+            - 0
+            - 1
+            - 2.22044605e-16
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:root
+      tag: Sketchfab_model
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Object_9
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Object_0
+      tag: Object_9
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: GLTF_SceneRootNode
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 2.22044605e-16
+            - 1
+            - 0
+            - 0
+            - -1
+            - 2.22044605e-16
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:RootNode (gltf orientation matrix)_0
+      tag: GLTF_SceneRootNode
+metadata:
+  version: 1.0

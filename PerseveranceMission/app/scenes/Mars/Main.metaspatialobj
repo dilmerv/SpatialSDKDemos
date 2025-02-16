@@ -1,0 +1,72 @@
+scene: docref:Main.scene
+entities:
+  com.meta.models.AssetFolder:
+    - components:
+        com.meta.components.AssetFolder:
+          assets:
+            - ref:Material.002_baseColor
+            - ref:Material.002
+            - ref:Object_0
+        com.meta.components.Name:
+          name: scene
+  com.meta.models.AssetRoot:
+    - components:
+        com.meta.components.AssetMetadata:
+          {}
+        com.meta.components.AssetRoot:
+          defaultScene: ref:Scene
+          scenes:
+            - ref:Scene
+  com.meta.models.Geometry:
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry.bin
+      tag: Geometry
+  com.meta.models.Image:
+    - components:
+        com.meta.components.Asset:
+          path: assets/Material.002_baseColor.jpg
+        com.meta.components.Image:
+          height: 4096
+          mimeType: image/jpeg
+          width: 8192
+        com.meta.components.Name:
+          name: Material.002_baseColor
+      tag: Material.002_baseColor
+  com.meta.models.Material:
+    - uri: docref:materials/Material.metaspatialmaterial
+      tag: Material.002
+  com.meta.models.Mesh:
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive
+        com.meta.components.Name:
+          name: Object_0
+      tag: Object_0
+  com.meta.models.Primitive:
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry
+          material: ref:Material.002
+      tag: Primitive
+  com.meta.models.Sampler:
+    - components:
+        com.meta.components.Name:
+          name: sampler0
+        com.meta.components.Sampler:
+          magFilter: Linear
+          minFilter: LinearMipmapLinear
+          wrapS: Repeat
+          wrapT: Repeat
+      tag: sampler0
+  com.meta.models.Texture:
+    - uri: docref:textures/texture1.metaspatialtexture
+      tag: texture1
+metadata:
+  version: 1.0

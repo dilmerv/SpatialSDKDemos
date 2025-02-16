@@ -1,0 +1,4556 @@
+entities:
+  com.meta.models.Scene:
+    - components:
+        com.meta.components.Name:
+          {}
+        com.meta.components.Scene:
+          nodes:
+            - ref:Sketchfab_model
+      tag: Scene
+  com.meta.models.SceneNode:
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI_LED_04_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:MAHLI_LED_04_0
+      tag: MAHLI_LED_04_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI_LED_03_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:MAHLI_LED_03_0
+      tag: MAHLI_LED_03_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI_LED_01_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:MAHLI_LED_01_0
+      tag: MAHLI_LED_01_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI_lens_cover
+        com.meta.components.SceneNode:
+          matrix:
+            - 0.838150024
+            - -0.464890003
+            - -0.285279989
+            - 0
+            - -0.545149982
+            - -0.731239974
+            - -0.41001001
+            - 0
+            - -0.0179900005
+            - 0.499170005
+            - -0.866320014
+            - 0
+            - 0.00167999999
+            - -0.00255000009
+            - 0.0107899997
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:MAHLI_lens_cover_0
+      tag: MAHLI_lens_cover
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: wheel_03_L_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:wheel_03_L_0
+      tag: wheel_03_L_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: wheel_03_R_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:wheel_03_R_0
+      tag: wheel_03_R_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: APXS_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:APXS_0
+      tag: APXS_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: CHIMERA_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:CHIMERA_0
+      tag: CHIMERA_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: CHIMERA_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:CHIMERA_1
+      tag: CHIMERA_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Drill_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Drill_1
+      tag: Drill_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI_LED_04
+        com.meta.components.SceneNode:
+          matrix:
+            - 0.000500000024
+            - 0.000709999993
+            - 0.00150999997
+            - 0
+            - 0.000809999998
+            - 0.00127000001
+            - -0.000869999989
+            - 0
+            - -0.00146000006
+            - 0.000950000016
+            - 2.99999992e-05
+            - 0
+            - -0.0407099985
+            - 0.0153599996
+            - 0.01511
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:MAHLI_LED_04_01
+      tag: MAHLI_LED_04
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI_LED_01
+        com.meta.components.SceneNode:
+          matrix:
+            - 0.000500000024
+            - 0.000709999993
+            - 0.00150999997
+            - 0
+            - 0.000809999998
+            - 0.00127000001
+            - -0.000869999989
+            - 0
+            - -0.00146000006
+            - 0.000950000016
+            - 2.99999992e-05
+            - 0
+            - -0.0240499992
+            - 0.0414899997
+            - -0.000419999997
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:MAHLI_LED_01_01
+      tag: MAHLI_LED_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_steer_B_L_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_steer_B_L_0
+      tag: suspension_steer_B_L_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_steer_B_L_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_steer_B_L_1
+      tag: suspension_steer_B_L_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: wheel_03_L
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.000490000006
+            - -0.00124000001
+            - -0.399489999
+          children:
+            - ref:wheel_03_L_01
+      tag: wheel_03_L
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: wheel_01_L_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:wheel_01_L_0
+      tag: wheel_01_L_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_steer_B_R_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_steer_B_R_0
+      tag: suspension_steer_B_R_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_steer_B_R_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_steer_B_R_1
+      tag: suspension_steer_B_R_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: wheel_03_R
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.000490000006
+            - 0.00124000001
+            - -0.399489999
+          children:
+            - ref:wheel_03_R_01
+      tag: wheel_03_R
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Drill
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - -0.0364399999
+            - 0.000890000025
+            - 0.17554
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:Drill_01
+            - ref:Drill_11
+      tag: Drill
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - -0.192249998
+            - 0.0940399989
+            - 0.141210005
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:MAHLI_01
+            - ref:MAHLI_LED_03
+            - ref:MAHLI_LED_02
+            - ref:MAHLI_LED_04
+            - ref:MAHLI_LED_01
+            - ref:MAHLI_lens_cover_p
+      tag: MAHLI
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Dust Removal Tool
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - -0.216849998
+            - -0.0721900016
+            - 0.159549996
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:Dust Removal Tool_0
+      tag: Dust Removal Tool
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: bit_01.001
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0.000190000006
+            - -0.178929999
+            - 0.140049994
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:bit_01.001_01
+      tag: bit_01.001
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: ChemCam_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:ChemCam_0
+      tag: ChemCam_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MastCam_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:MastCam_0
+      tag: MastCam_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_B2_L_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_arm_B2_L_1
+      tag: suspension_arm_B2_L_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_steer_F_L_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_steer_F_L_0
+      tag: suspension_steer_F_L_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: wheel_01_L
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.000390000001
+            - -9.00000014e-05
+            - -0.399599999
+          children:
+            - ref:wheel_01_L_01
+      tag: wheel_01_L
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_B2_R_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_arm_B2_R_0
+      tag: suspension_arm_B2_R_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_B2_R_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_arm_B2_R_1
+      tag: suspension_arm_B2_R_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_steer_F_R_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_steer_F_R_0
+      tag: suspension_steer_F_R_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_steer_F_R_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_steer_F_R_1
+      tag: suspension_steer_F_R_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_04.001_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:arm_04.001_1
+      tag: arm_04.001_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_05_head.001
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.961260915
+            - 0
+            - 0
+            - -0.275640279
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.0742999986
+            - 0.101269998
+            - 0.143979996
+          children:
+            - ref:arm_05_head.001_01
+            - ref:CHIMERA
+            - ref:Drill
+            - ref:Dust Removal Tool
+            - ref:MAHLI
+            - ref:APXS
+            - ref:bit_01.001
+      tag: arm_05_head.001
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: mast_03.001_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:mast_03.001_0
+      tag: mast_03.001_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: wheel_01_R_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:wheel_01_R_0
+      tag: wheel_01_R_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: NavCam
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - -0
+            - 1
+            - 0
+            - 0
+            - 0
+            - -0
+            - 1
+            - 0
+            - -0
+            - 0
+            - 9.00000014e-05
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:NavCam_01
+      tag: NavCam
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_steer_F_R
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.912941456
+            - 0
+            - 0
+            - 0.408090621
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.000500000024
+            - -0
+            - -0.237259999
+          children:
+            - ref:suspension_steer_F_R_01
+            - ref:suspension_steer_F_R_11
+            - ref:wheel_01_R
+      tag: suspension_steer_F_R
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_03.001_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:arm_03.001_1
+      tag: arm_03.001_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: mast_02.001_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:mast_02.001_0
+      tag: mast_02.001_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: mast_03.001
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.0206899997
+            - 0
+            - 0.202120006
+          children:
+            - ref:mast_03.001_01
+            - ref:ChemCam
+            - ref:MastCam
+            - ref:NavCam
+      tag: mast_03.001
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_B_L_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_arm_B_L_0
+      tag: suspension_arm_B_L_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_F_L_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_arm_F_L_0
+      tag: suspension_arm_F_L_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Cube_01_p
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.263099998
+            - -0.880999982
+            - -0.00216999999
+          children:
+            - ref:suspension_steer_F_L
+      tag: Cube_01_p
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_F_R_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_arm_F_R_0
+      tag: suspension_arm_F_R_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_F_R_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_arm_F_R_1
+      tag: suspension_arm_F_R_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Cube_02_p
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.262840003
+            - -0.880999982
+            - -0.00490000006
+          children:
+            - ref:suspension_steer_F_R
+      tag: Cube_02_p
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_02.001_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:arm_02.001_0
+      tag: arm_02.001_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_02.001_2
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:arm_02.001_2
+      tag: arm_02.001_21
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_02.001_3
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:arm_02.001_3
+      tag: arm_02.001_31
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: mast_02.001
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.477158517
+            - 0
+            - 0
+            - 0.87881726
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.0378899984
+            - 0.0428799987
+            - 0.291310012
+          children:
+            - ref:mast_02.001_01
+            - ref:mast_03.001
+      tag: mast_02.001
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_rod_L_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_rod_L_0
+      tag: suspension_rod_L_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_B_L
+        com.meta.components.SceneNode:
+          matrix:
+            - 0.980790019
+            - -0
+            - -0.195089996
+            - 0
+            - 0
+            - 1
+            - -0
+            - 0
+            - 0.195089996
+            - 0
+            - 0.980790019
+            - 0
+            - -0.0251599997
+            - 0.364300013
+            - -0.100759998
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:suspension_arm_B_L_01
+            - ref:suspension_arm_B_L_1
+            - ref:Cube_03_p
+      tag: suspension_arm_B_L
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_F_L
+        com.meta.components.SceneNode:
+          matrix:
+            - 0.980790019
+            - -0
+            - -0.195089996
+            - 0
+            - 0
+            - 1
+            - -0
+            - 0
+            - 0.195089996
+            - -0
+            - 0.980790019
+            - 0
+            - 0
+            - -0
+            - 0
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:suspension_arm_F_L_01
+            - ref:suspension_arm_F_L_11
+            - ref:Cube_01_p
+      tag: suspension_arm_F_L
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_axel_L2_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_axel_L2_0
+      tag: suspension_axel_L2_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_rod_R_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_rod_R_0
+      tag: suspension_rod_R_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_F_R
+        com.meta.components.SceneNode:
+          matrix:
+            - 0.980790019
+            - 0
+            - 0.195089996
+            - 0
+            - -0
+            - 1
+            - -0
+            - 0
+            - -0.195089996
+            - -0
+            - 0.980790019
+            - 0
+            - 0
+            - -0
+            - -0
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:suspension_arm_F_R_01
+            - ref:suspension_arm_F_R_11
+            - ref:Cube_02_p
+      tag: suspension_arm_F_R
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_axel_R2_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_axel_R2_0
+      tag: suspension_axel_R2_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: body.001_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:body.001_0
+      tag: body.001_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: sundial_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:sundial_0
+      tag: sundial_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: HazCam - rear_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:HazCam - rear_0
+      tag: HazCam - rear_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: RAD_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:RAD_0
+      tag: RAD_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: REMS_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:REMS_0
+      tag: REMS_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: HazCam - front_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:HazCam - front_0
+      tag: HazCam - front_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MARDI.001_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:MARDI.001_0
+      tag: MARDI.001_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: SAM_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:SAM_0
+      tag: SAM_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: cover_03_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:cover_03_0
+      tag: cover_03_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: antenna_HG_02_p
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.976296186
+            - 0
+            - 0
+            - -0.216439158
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.0364300013
+            - 0.0783599988
+            - 0.133180007
+          children:
+            - ref:antenna_HG_03
+      tag: antenna_HG_02_p
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_01.001_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:arm_01.001_0
+      tag: arm_01.001_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_01.001_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:arm_01.001_1
+      tag: arm_01.001_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI_cal_target
+        com.meta.components.SceneNode:
+          matrix:
+            - -0
+            - 1
+            - -0
+            - 0
+            - -1
+            - -0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - -0.193829998
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:MAHLI_cal_target_0
+      tag: MAHLI_cal_target
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_02.001
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.991444349
+            - -0.130530581
+            - -0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.0038399999
+            - -0.160500005
+            - -0.165649995
+          children:
+            - ref:arm_02.001_01
+            - ref:arm_02.001_1
+            - ref:arm_02.001_21
+            - ref:arm_02.001_31
+            - ref:arm_03.001
+      tag: arm_02.001
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: bit_02_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:bit_02_0
+      tag: bit_02_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: lens_covers_rear_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:lens_covers_rear_0
+      tag: lens_covers_rear_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: antenna_LG_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:antenna_LG_0
+      tag: antenna_LG_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_xmember_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_xmember_0
+      tag: suspension_xmember_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_xmember_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_xmember_1
+      tag: suspension_xmember_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_axel_L_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_axel_L_0
+      tag: suspension_axel_L_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_rod_L
+        com.meta.components.SceneNode:
+          rotation.data:
+            - -0
+            - 0
+            - -0.00483999215
+            - 0.999988317
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.0307999998
+            - -9.99999975e-06
+            - 0.268539995
+          children:
+            - ref:suspension_rod_L_01
+      tag: suspension_rod_L
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_B_R
+        com.meta.components.SceneNode:
+          matrix:
+            - 0.980790019
+            - 0
+            - 0.195089996
+            - 0
+            - -0
+            - 1
+            - -0
+            - 0
+            - -0.195089996
+            - -0
+            - 0.980790019
+            - 0
+            - 0.0251599997
+            - 0.364300013
+            - -0.100759998
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:suspension_arm_B_R_0
+            - ref:suspension_arm_B_R_11
+            - ref:Cube_04_p
+      tag: suspension_arm_B_R
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_F_L_p
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.908766985
+            - -0.405628651
+            - -0.0895097032
+            - -0.0399498641
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.153909996
+            - 0.00249999994
+            - 0.00675999979
+          children:
+            - ref:suspension_arm_F_L
+      tag: suspension_arm_F_L_p
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: cover_02_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:cover_02_0
+      tag: cover_02_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_axel_L2
+        com.meta.components.SceneNode:
+          matrix:
+            - -1
+            - -0
+            - -0.000969999994
+            - 0
+            - -0
+            - 1
+            - -0.000110000001
+            - 0
+            - -0.000969999994
+            - 0.000110000001
+            - 1
+            - 0
+            - -0.00730000017
+            - -0
+            - -0.00236999989
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:suspension_axel_L2_01
+      tag: suspension_axel_L2
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_axel_R_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_axel_R_0
+      tag: suspension_axel_R_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_B_R_p
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.899913073
+            - 0.424911469
+            - 0.0886303037
+            - -0.0418501459
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.161160007
+            - -0
+            - 0.00953000039
+          children:
+            - ref:suspension_arm_B_R
+      tag: suspension_arm_B_R_p
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_03.001_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:arm_03.001_0
+      tag: arm_03.001_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_F_R_p
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.9087587
+            - -0.405649424
+            - 0.0894998759
+            - 0.0399499424
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.161160007
+            - 0
+            - 0.00953000039
+          children:
+            - ref:suspension_arm_F_R
+      tag: suspension_arm_F_R_p
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Chassis_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Chassis_0
+      tag: Chassis_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Chassis_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Chassis_1
+      tag: Chassis_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: sundial
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - -0.514110029
+            - 0.436010003
+            - 0.429580003
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:sundial_01
+      tag: sundial
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Chassis_2
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Chassis_2
+      tag: Chassis_21
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Chassis_3
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Chassis_3
+      tag: Chassis_31
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Drill_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Drill_0
+      tag: Drill_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: radiators
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:radiators_01
+      tag: radiators
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: RAD
+        com.meta.components.SceneNode:
+          matrix:
+            - 0.0618299991
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0.0618299991
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0.0618299991
+            - 0
+            - 0.348259985
+            - -0.00934000034
+            - 0.235599995
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:RAD_01
+      tag: RAD
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: REMS
+        com.meta.components.SceneNode:
+          matrix:
+            - -0.0219000001
+            - -0.00887999963
+            - 0
+            - 0
+            - 0.0111999996
+            - -0.0276100002
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0.0297999997
+            - 0
+            - -0.224179998
+            - -0.491629988
+            - 0.236399993
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:REMS_01
+      tag: REMS
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: bit_03_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:bit_03_0
+      tag: bit_03_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: CheMin
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0.12269
+            - -0.621829987
+            - 0.242420003
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:CheMin_0
+      tag: CheMin
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: SAM
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - -0.163790002
+            - -0.626190007
+            - 0.243129998
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:SAM_01
+      tag: SAM
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: antenna_LG
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0.495000005
+            - 0.991900027
+            - 0.584209979
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:antenna_LG_01
+      tag: antenna_LG
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: cover_01
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.212589994
+            - -0.563300014
+            - 0.227449998
+          children:
+            - ref:cover_01_01
+      tag: cover_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: body_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:body_0
+      tag: body_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: antenna_HG_01
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.474970013
+            - 0.514519989
+            - 0.344319999
+          children:
+            - ref:antenna_HG_01_0
+            - ref:antenna_HG_02_p
+      tag: antenna_HG_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: cover_03
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.154599994
+            - -0.51639998
+            - 0.229149997
+          children:
+            - ref:cover_03_01
+      tag: cover_03
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: body_3
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:body_3
+      tag: body_31
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: body_4
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:body_4
+      tag: body_41
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: bit_02
+        com.meta.components.SceneNode:
+          matrix:
+            - 0.882950008
+            - -0.469469994
+            - 0
+            - 0
+            - 0.469469994
+            - 0.882950008
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - -0.462540001
+            - -1.05686998
+            - -0.180769995
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:bit_02_01
+      tag: bit_02
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_xmember
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.999993205
+            - 0
+            - 0
+            - 0.00370001188
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.000380000012
+            - 0.196999997
+            - 0.288069993
+          children:
+            - ref:suspension_xmember_01
+            - ref:suspension_xmember_11
+      tag: suspension_xmember
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_axel_L
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.640999973
+            - -0.158999994
+            - -0.0109999999
+          children:
+            - ref:suspension_axel_L_01
+            - ref:suspension_rod_L
+            - ref:suspension_arm_B_L_p
+            - ref:suspension_arm_F_L_p
+            - ref:suspension_axel_L2
+      tag: suspension_axel_L
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: cover_01_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:cover_01_0
+      tag: cover_01_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_axel_R
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.638000011
+            - -0.158999994
+            - -0.0110400002
+          children:
+            - ref:suspension_axel_R_01
+            - ref:suspension_rod_R
+            - ref:suspension_arm_B_R_p
+            - ref:suspension_arm_F_R_p
+            - ref:suspension_axel_R2
+      tag: suspension_axel_R
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: bit_03
+        com.meta.components.SceneNode:
+          matrix:
+            - 0.981630027
+            - 0.190809995
+            - 0
+            - 0
+            - -0.190809995
+            - 0.981630027
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - -0.159339994
+            - -1.04054999
+            - -0.0982000008
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:bit_03_01
+      tag: bit_03
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: body
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0
+            - -0.0549999997
+            - 0.886399984
+          children:
+            - ref:body_01
+            - ref:body_11
+            - ref:body_21
+            - ref:body_31
+            - ref:body_41
+            - ref:body_5
+            - ref:arm_01.001
+            - ref:bit_02
+            - ref:bit_03
+            - ref:antenna_HG_01
+            - ref:lens_covers_front
+            - ref:lens_covers_rear
+            - ref:mast_p
+            - ref:suspension_xmember
+            - ref:suspension_axel_L
+            - ref:suspension_axel_R
+      tag: body
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: antenna_UHF_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:antenna_UHF_01
+      tag: antenna_UHF_0
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_steer_B_R
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.262760013
+            - 0.624000013
+            - -0.000600000028
+          children:
+            - ref:suspension_steer_B_R_01
+            - ref:suspension_steer_B_R_11
+            - ref:wheel_03_R
+      tag: suspension_steer_B_R
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_03.001_2
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:arm_03.001_2
+      tag: arm_03.001_21
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: wheel_02_R
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.393920004
+            - -0.451000005
+            - -0.40000999
+          children:
+            - ref:wheel_02_R_0
+      tag: wheel_02_R
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: lens_covers_rear
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.130530581
+            - 0.991444349
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.500999987
+            - 1.09256005
+            - -0.138370007
+          children:
+            - ref:lens_covers_rear_01
+      tag: lens_covers_rear
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: RTG
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - -0
+            - 1.25952995
+            - 0.264160007
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:RTG_01
+      tag: RTG
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: mast_01.000
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - -0
+            - 0
+            - -0
+            - 1
+            - -0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - -0.0395900011
+            - -0.00127999997
+            - 0.102260001
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:mast_01.000_01
+      tag: mast_01.000
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI_LED_03
+        com.meta.components.SceneNode:
+          matrix:
+            - 0.000500000024
+            - 0.000709999993
+            - 0.00150999997
+            - 0
+            - 0.000809999998
+            - 0.00127000001
+            - -0.000869999989
+            - 0
+            - -0.00146000006
+            - 0.000950000016
+            - 2.99999992e-05
+            - 0
+            - -0.0411400013
+            - 0.0148700001
+            - 0.0103099998
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:MAHLI_LED_03_01
+      tag: MAHLI_LED_03
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: antenna_UHF
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - -0.504930019
+            - 1.13803995
+            - 0.734139979
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:antenna_UHF_0
+      tag: antenna_UHF
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: antenna_HG_03
+        com.meta.components.SceneNode:
+          matrix:
+            - -0.906310022
+            - -0.422619998
+            - 0
+            - 0
+            - 0.422619998
+            - -0.906310022
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - -0.330110013
+            - -0.502139986
+            - -0.135169998
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:antenna_HG_03_01
+      tag: antenna_HG_03
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_rod_R
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.999964535
+            - 0.00830003712
+            - -0.000640002894
+            - 0.00135000621
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.0333199985
+            - 0.000180000003
+            - 0.267190009
+          children:
+            - ref:suspension_rod_R_01
+      tag: suspension_rod_R
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: wheel_02_L
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.393920004
+            - -0.451000005
+            - -0.40000999
+          children:
+            - ref:wheel_02_L_01
+      tag: wheel_02_L
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: body_2
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:body_2
+      tag: body_21
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: antenna_HG_03_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:antenna_HG_03_0
+      tag: antenna_HG_03_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: mast_01.001
+        com.meta.components.SceneNode:
+          matrix:
+            - 0.838670015
+            - -0.544640005
+            - 0
+            - 0
+            - 0.544640005
+            - 0.838670015
+            - 0
+            - 0
+            - -0
+            - 0
+            - 1
+            - 0
+            - -0.0549999997
+            - -0.0135899996
+            - 0.183459997
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:mast_01.001_0
+            - ref:mast_02.001
+            - ref:mast_01.000
+      tag: mast_01.001
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: HazCam - front
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0.0397199988
+            - -0.821959972
+            - -0.159700006
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:HazCam - front_01
+      tag: HazCam - front
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: DAN_L
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0.576499999
+            - 0.927259982
+            - -0.0140199997
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:DAN_L_01
+      tag: DAN_L
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: HazCam - rear
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - -0
+            - 1.10764003
+            - -0.0640700012
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:HazCam - rear_01
+      tag: HazCam - rear
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: body_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:body_1
+      tag: body_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_steer_F_L_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_steer_F_L_1
+      tag: suspension_steer_F_L_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_F_L_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_arm_F_L_1
+      tag: suspension_arm_F_L_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_B2_R
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.931839764
+            - -0.362869918
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.192279994
+            - 0
+            - 0
+          children:
+            - ref:suspension_arm_B2_R_01
+            - ref:suspension_arm_B2_R_11
+            - ref:suspension_steer_B_R
+            - ref:wheel_02_R
+      tag: suspension_arm_B2_R
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_B2_L_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_arm_B2_L_0
+      tag: suspension_arm_B2_L_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: _root_p
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:Chassis
+            - ref:body
+      tag: _root_p
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: bit_01.001_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:bit_01.001_0
+      tag: bit_01.001_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: wheel_02_L_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:wheel_02_L_0
+      tag: wheel_02_L_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Chassis
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0
+            - -0.0549999997
+            - 0.886399984
+          children:
+            - ref:Chassis_01
+            - ref:Chassis_11
+            - ref:Chassis_21
+            - ref:Chassis_31
+            - ref:RAD
+            - ref:REMS
+            - ref:DAN_L
+            - ref:DAN_R
+            - ref:sundial
+            - ref:HazCam - rear
+            - ref:HazCam - front
+            - ref:MARDI.001
+            - ref:CheMin
+            - ref:SAM
+            - ref:body.001
+            - ref:radiators
+            - ref:RTG
+            - ref:antenna_LG
+            - ref:antenna_UHF
+            - ref:cover_02
+            - ref:cover_03
+            - ref:cover_01
+      tag: Chassis
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_04.001
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.7372787
+            - 0.675588787
+            - 0
+            - -0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.159260005
+            - 0.00127000001
+            - 0.782670021
+          children:
+            - ref:arm_04.001_0
+            - ref:arm_04.001_11
+            - ref:arm_05_head.001
+      tag: arm_04.001
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_B_R_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_arm_B_R_01
+      tag: suspension_arm_B_R_0
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_steer_B_L
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.262760013
+            - 0.624000013
+            - -0.000600000028
+          children:
+            - ref:suspension_steer_B_L_01
+            - ref:suspension_steer_B_L_11
+            - ref:wheel_03_L
+      tag: suspension_steer_B_L
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: DAN_R_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:DAN_R_0
+      tag: DAN_R_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: APXS
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0.189209998
+            - 0.153380007
+            - 0.157509997
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:APXS_01
+      tag: APXS
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_B_L_p
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.899931371
+            - 0.42487067
+            - -0.0886401311
+            - 0.0418500639
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.153359994
+            - -0
+            - 0.00949000008
+          children:
+            - ref:suspension_arm_B_L
+      tag: suspension_arm_B_L_p
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_03.001_3
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:arm_03.001_31
+      tag: arm_03.001_3
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_B_R_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_arm_B_R_1
+      tag: suspension_arm_B_R_11
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MARDI.001
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0.647539973
+            - -0.608669996
+            - -0.152860001
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:MARDI.001_01
+      tag: MARDI.001
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Cube_03_p
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.197870001
+            - 0.389699996
+            - -0.137830004
+          children:
+            - ref:suspension_arm_B2_L
+      tag: Cube_03_p
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Root
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:_root_p
+      tag: Root
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: DAN_R
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - -0.576499999
+            - 0.917509973
+            - 0.00212000008
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:DAN_R_01
+      tag: DAN_R
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MastCam
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - -0
+            - 1
+            - 0
+            - 0
+            - 0
+            - -0
+            - 1
+            - 0
+            - -0
+            - 0
+            - 9.00000014e-05
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:MastCam_01
+      tag: MastCam
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: mast_p
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.677987933
+            - -0.200829372
+            - 0.677987933
+            - 0.200829372
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.558210015
+            - -0.660510004
+            - 0.338999987
+          children:
+            - ref:mast_01.001
+      tag: mast_p
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_05_head.001_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:arm_05_head.001_0
+      tag: arm_05_head.001_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_steer_F_L
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.912941456
+            - 0
+            - 0
+            - -0.408090621
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.000239999994
+            - 0
+            - -0.239999995
+          children:
+            - ref:suspension_steer_F_L_01
+            - ref:suspension_steer_F_L_11
+            - ref:wheel_01_L
+      tag: suspension_steer_F_L
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: DAN_L_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:DAN_L_0
+      tag: DAN_L_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:MAHLI_0
+      tag: MAHLI_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: lens_covers_front
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.378230602
+            - 0.925711453
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.0906599984
+            - -0.851010025
+            - -0.197549999
+          children:
+            - ref:lens_covers_front_0
+      tag: lens_covers_front
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: NavCam_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:NavCam_0
+      tag: NavCam_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: mast_01.001_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:mast_01.001_01
+      tag: mast_01.001_0
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: RTG_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:RTG_0
+      tag: RTG_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI_lens_cover_p
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.245250493
+            - 0.926781893
+            - -0.27246058
+            - -0.0818101615
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.0338700004
+            - 0.0419799984
+            - 0.0269099995
+          children:
+            - ref:MAHLI_lens_cover
+      tag: MAHLI_lens_cover_p
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Sketchfab_model
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 2.22044605e-16
+            - -1
+            - 0
+            - 0
+            - 1
+            - 2.22044605e-16
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:Root
+      tag: Sketchfab_model
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_B2_L
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.931836426
+            - -0.362878621
+            - 0
+            - -0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.192279994
+            - 0
+            - 0
+          children:
+            - ref:suspension_arm_B2_L_01
+            - ref:suspension_arm_B2_L_11
+            - ref:wheel_02_L
+            - ref:suspension_steer_B_L
+      tag: suspension_arm_B2_L
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI_cal_target_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:MAHLI_cal_target_01
+      tag: MAHLI_cal_target_0
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: wheel_02_R_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:wheel_02_R_01
+      tag: wheel_02_R_0
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: antenna_HG_01_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:antenna_HG_01_01
+      tag: antenna_HG_01_0
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: body.001
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:body.001_01
+      tag: body.001
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: mast_01.000_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:mast_01.000_0
+      tag: mast_01.000_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_arm_B_L_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:suspension_arm_B_L_11
+      tag: suspension_arm_B_L_1
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: body_5
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:body_51
+      tag: body_5
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_02.001_1
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:arm_02.001_11
+      tag: arm_02.001_1
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: lens_covers_front_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:lens_covers_front_01
+      tag: lens_covers_front_0
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: CheMin_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:CheMin_01
+      tag: CheMin_0
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: radiators_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:radiators_0
+      tag: radiators_01
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI_LED_02_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:MAHLI_LED_02_01
+      tag: MAHLI_LED_02_0
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI_LED_02
+        com.meta.components.SceneNode:
+          matrix:
+            - 0.000500000024
+            - 0.000709999993
+            - 0.00150999997
+            - 0
+            - 0.000809999998
+            - 0.00127000001
+            - -0.000869999989
+            - 0
+            - -0.00146000006
+            - 0.000950000016
+            - 2.99999992e-05
+            - 0
+            - -0.0260700006
+            - 0.0385200009
+            - -0.00410000002
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:MAHLI_LED_02_0
+      tag: MAHLI_LED_02
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: CHIMERA
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0.207709998
+            - -0.0481700003
+            - 0.148530006
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:CHIMERA_01
+            - ref:CHIMERA_11
+      tag: CHIMERA
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: cover_02
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.276989996
+            - -0.688570023
+            - 0.229230002
+          children:
+            - ref:cover_02_01
+      tag: cover_02
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Cube_04_p
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.19788
+            - 0.389699996
+            - -0.137830004
+          children:
+            - ref:suspension_arm_B2_R
+      tag: Cube_04_p
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: ChemCam
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - -0
+            - 1
+            - 0
+            - 0
+            - 0
+            - -0
+            - 1
+            - 0
+            - -0
+            - 0
+            - 9.00000014e-05
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:ChemCam_01
+      tag: ChemCam
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_01.001
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.707106769
+            - 0
+            - 0
+            - -0.707106769
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.451499999
+            - -1.05785
+            - 0.111649998
+          children:
+            - ref:arm_01.001_01
+            - ref:arm_01.001_11
+            - ref:MAHLI_cal_target
+            - ref:arm_02.001
+      tag: arm_01.001
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: MAHLI_lens_cover_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:MAHLI_lens_cover_01
+      tag: MAHLI_lens_cover_0
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: suspension_axel_R2
+        com.meta.components.SceneNode:
+          matrix:
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0
+            - 0
+            - 0
+            - 1
+            - 0
+            - 0.00430000015
+            - 0
+            - -0.00233000005
+            - 1
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          children:
+            - ref:suspension_axel_R2_01
+      tag: suspension_axel_R2
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_04.001_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:arm_04.001_01
+      tag: arm_04.001_0
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Dust Removal Tool_0
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Dust Removal Tool_01
+      tag: Dust Removal Tool_0
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: wheel_01_R
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -0.000390000001
+            - 9.00000014e-05
+            - -0.399599999
+          children:
+            - ref:wheel_01_R_01
+      tag: wheel_01_R
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: arm_03.001
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.819149673
+            - -0.573579848
+            - -0
+            - -0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 0.0705000013
+            - -0.824779987
+            - 0.000579999993
+          children:
+            - ref:arm_03.001_01
+            - ref:arm_03.001_11
+            - ref:arm_03.001_21
+            - ref:arm_03.001_3
+            - ref:arm_04.001
+      tag: arm_03.001
+metadata:
+  version: 1.0

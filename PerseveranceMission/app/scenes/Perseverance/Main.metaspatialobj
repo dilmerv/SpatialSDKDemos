@@ -1,0 +1,2846 @@
+scene: docref:Main.scene
+entities:
+  com.meta.models.Animation:
+    - components:
+        com.meta.components.Animation:
+          endTime: 20.6666698
+          startTime: 0.0333300009
+          channels:
+            - ref:AnimationChannel6
+            - ref:AnimationChannel40
+            - ref:AnimationChannel4
+            - ref:AnimationChannel15
+            - ref:AnimationChannel13
+            - ref:AnimationChannel1
+            - ref:AnimationChannel39
+            - ref:AnimationChannel41
+            - ref:AnimationChannel45
+            - ref:AnimationChannel38
+            - ref:AnimationChannel37
+            - ref:AnimationChannel36
+            - ref:AnimationChannel3
+            - ref:AnimationChannel33
+            - ref:AnimationChannel28
+            - ref:AnimationChannel32
+            - ref:AnimationChannel26
+            - ref:AnimationChannel31
+            - ref:AnimationChannel8
+            - ref:AnimationChannel30
+            - ref:AnimationChannel42
+            - ref:AnimationChannel44
+            - ref:AnimationChannel29
+            - ref:AnimationChannel34
+            - ref:AnimationChannel7
+            - ref:AnimationChannel43
+            - ref:AnimationChannel2
+            - ref:AnimationChannel14
+            - ref:AnimationChannel27
+            - ref:AnimationChannel20
+            - ref:AnimationChannel25
+            - ref:AnimationChannel5
+            - ref:AnimationChannel23
+            - ref:AnimationChannel24
+            - ref:AnimationChannel22
+            - ref:AnimationChannel10
+            - ref:AnimationChannel
+            - ref:AnimationChannel11
+            - ref:AnimationChannel12
+            - ref:AnimationChannel21
+            - ref:AnimationChannel19
+            - ref:AnimationChannel18
+            - ref:AnimationChannel17
+            - ref:AnimationChannel16
+            - ref:AnimationChannel9
+            - ref:AnimationChannel35
+            - ref:AnimationChannel46
+        com.meta.components.Name:
+          name: Take 01
+      tag: Take 01
+  com.meta.models.AnimationChannel:
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel46.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:wheel_01_R
+          targetComponent: ref:wheel_01_R
+      tag: AnimationChannel46
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel45.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:body
+          targetComponent: ref:body
+      tag: AnimationChannel45
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel44.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:mast_03.001
+          targetComponent: ref:mast_03.001
+      tag: AnimationChannel44
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel43.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_arm_B_L_p
+          targetComponent: ref:suspension_arm_B_L_p
+      tag: AnimationChannel43
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel42.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:mast_02.001
+          targetComponent: ref:mast_02.001
+      tag: AnimationChannel42
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel41.bin
+          interpolation: Linear
+          targetPath: Translation
+          target: ref:body
+          targetComponent: ref:body
+      tag: AnimationChannel41
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel40.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:_root_p
+          targetComponent: ref:_root_p
+      tag: AnimationChannel40
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel39.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:cover_01
+          targetComponent: ref:cover_01
+      tag: AnimationChannel39
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel38.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:arm_01.001
+          targetComponent: ref:arm_01.001
+      tag: AnimationChannel38
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel37.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:arm_02.001
+          targetComponent: ref:arm_02.001
+      tag: AnimationChannel37
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel36.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:arm_03.001
+          targetComponent: ref:arm_03.001
+      tag: AnimationChannel36
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel35.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_steer_F_R
+          targetComponent: ref:suspension_steer_F_R
+      tag: AnimationChannel35
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel34.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_axel_L
+          targetComponent: ref:suspension_axel_L
+      tag: AnimationChannel34
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel33.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:arm_05_head.001
+          targetComponent: ref:arm_05_head.001
+      tag: AnimationChannel33
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel32.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:antenna_HG_01
+          targetComponent: ref:antenna_HG_01
+      tag: AnimationChannel32
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel31.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:lens_covers_front
+          targetComponent: ref:lens_covers_front
+      tag: AnimationChannel31
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel30.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:mast_p
+          targetComponent: ref:mast_p
+      tag: AnimationChannel30
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel29.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_xmember
+          targetComponent: ref:suspension_xmember
+      tag: AnimationChannel29
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel28.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:MAHLI_lens_cover_p
+          targetComponent: ref:MAHLI_lens_cover_p
+      tag: AnimationChannel28
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel27.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:wheel_02_L
+          targetComponent: ref:wheel_02_L
+      tag: AnimationChannel27
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel26.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:antenna_HG_02_p
+          targetComponent: ref:antenna_HG_02_p
+      tag: AnimationChannel26
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel25.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:wheel_03_L
+          targetComponent: ref:wheel_03_L
+      tag: AnimationChannel25
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel24.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_steer_F_L
+          targetComponent: ref:suspension_steer_F_L
+      tag: AnimationChannel24
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel23.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:Cube_01_p
+          targetComponent: ref:Cube_01_p
+      tag: AnimationChannel23
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel22.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:wheel_01_L
+          targetComponent: ref:wheel_01_L
+      tag: AnimationChannel22
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel21.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_arm_B2_R
+          targetComponent: ref:suspension_arm_B2_R
+      tag: AnimationChannel21
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel20.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_steer_B_L
+          targetComponent: ref:suspension_steer_B_L
+      tag: AnimationChannel20
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel19.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_steer_B_R
+          targetComponent: ref:suspension_steer_B_R
+      tag: AnimationChannel19
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel18.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:wheel_03_R
+          targetComponent: ref:wheel_03_R
+      tag: AnimationChannel18
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel17.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:wheel_02_R
+          targetComponent: ref:wheel_02_R
+      tag: AnimationChannel17
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel16.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_arm_F_R_p
+          targetComponent: ref:suspension_arm_F_R_p
+      tag: AnimationChannel16
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel15.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:Chassis
+          targetComponent: ref:Chassis
+      tag: AnimationChannel15
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel14.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_arm_B2_L
+          targetComponent: ref:suspension_arm_B2_L
+      tag: AnimationChannel14
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel13.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:cover_02
+          targetComponent: ref:cover_02
+      tag: AnimationChannel13
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel12.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:Cube_04_p
+          targetComponent: ref:Cube_04_p
+      tag: AnimationChannel12
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel11.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_arm_B_R_p
+          targetComponent: ref:suspension_arm_B_R_p
+      tag: AnimationChannel11
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel10.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_axel_R
+          targetComponent: ref:suspension_axel_R
+      tag: AnimationChannel10
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel9.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:Cube_02_p
+          targetComponent: ref:Cube_02_p
+      tag: AnimationChannel9
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel8.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:lens_covers_rear
+          targetComponent: ref:lens_covers_rear
+      tag: AnimationChannel8
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel7.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_rod_L
+          targetComponent: ref:suspension_rod_L
+      tag: AnimationChannel7
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel6.bin
+          interpolation: Linear
+          targetPath: Translation
+          target: ref:_root_p
+          targetComponent: ref:_root_p
+      tag: AnimationChannel6
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel5.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_arm_F_L_p
+          targetComponent: ref:suspension_arm_F_L_p
+      tag: AnimationChannel5
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel4.bin
+          interpolation: Linear
+          targetPath: Translation
+          target: ref:Chassis
+          targetComponent: ref:Chassis
+      tag: AnimationChannel4
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel3.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:arm_04.001
+          targetComponent: ref:arm_04.001
+      tag: AnimationChannel3
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel2.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:Cube_03_p
+          targetComponent: ref:Cube_03_p
+      tag: AnimationChannel2
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel1.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:cover_03
+          targetComponent: ref:cover_03
+      tag: AnimationChannel1
+    - components:
+        com.meta.components.AnimationChannel:
+          data: binary/AnimationChannel.bin
+          interpolation: Linear
+          targetPath: Rotation
+          target: ref:suspension_rod_R
+          targetComponent: ref:suspension_rod_R
+      tag: AnimationChannel
+  com.meta.models.AssetFolder:
+    - components:
+        com.meta.components.AssetFolder:
+          assets:
+            - ref:parts_AO_baseColor
+            - ref:parts_AO_metallicRoughness
+            - ref:tex_01_baseColor
+            - ref:tex_02_baseColor
+            - ref:tex_03_baseColor
+            - ref:tex_03_n_normal
+            - ref:tex_04_baseColor
+            - ref:tex_05_baseColor
+            - ref:parts_AO
+            - ref:tex_01
+            - ref:tex_01.001
+            - ref:tex_02
+            - ref:tex_03
+            - ref:tex_03.002
+            - ref:tex_03_n
+            - ref:tex_04
+            - ref:tex_05
+            - ref:white_LED
+            - ref:APXS_0
+            - ref:CHIMERA_0
+            - ref:CHIMERA_1
+            - ref:Chassis_0
+            - ref:Chassis_1
+            - ref:Chassis_2
+            - ref:Chassis_3
+            - ref:CheMin_01
+            - ref:ChemCam_0
+            - ref:DAN_L_0
+            - ref:DAN_R_0
+            - ref:Drill_0
+            - ref:Drill_1
+            - ref:Dust Removal Tool_01
+            - ref:HazCam - front_0
+            - ref:HazCam - rear_0
+            - ref:MAHLI_0
+            - ref:MAHLI_LED_01_0
+            - ref:MAHLI_LED_02_01
+            - ref:MAHLI_LED_03_0
+            - ref:MAHLI_LED_04_0
+            - ref:MAHLI_cal_target_01
+            - ref:MAHLI_lens_cover_01
+            - ref:MARDI.001_0
+            - ref:MastCam_0
+            - ref:NavCam_0
+            - ref:RAD_0
+            - ref:REMS_0
+            - ref:RTG_0
+            - ref:SAM_0
+            - ref:antenna_HG_01_01
+            - ref:antenna_HG_03_0
+            - ref:antenna_LG_0
+            - ref:antenna_UHF_01
+            - ref:arm_01.001_0
+            - ref:arm_01.001_1
+            - ref:arm_02.001_0
+            - ref:arm_02.001_11
+            - ref:arm_02.001_2
+            - ref:arm_02.001_3
+            - ref:arm_03.001_0
+            - ref:arm_03.001_1
+            - ref:arm_03.001_2
+            - ref:arm_03.001_31
+            - ref:arm_04.001_01
+            - ref:arm_04.001_1
+            - ref:arm_05_head.001_0
+            - ref:bit_01.001_0
+            - ref:bit_02_0
+            - ref:bit_03_0
+            - ref:body.001_0
+            - ref:body_0
+            - ref:body_1
+            - ref:body_2
+            - ref:body_3
+            - ref:body_4
+            - ref:body_51
+            - ref:cover_01_0
+            - ref:cover_02_0
+            - ref:cover_03_0
+            - ref:lens_covers_front_01
+            - ref:lens_covers_rear_0
+            - ref:mast_01.000_0
+            - ref:mast_01.001_01
+            - ref:mast_02.001_0
+            - ref:mast_03.001_0
+            - ref:radiators_0
+            - ref:sundial_0
+            - ref:suspension_arm_B2_L_0
+            - ref:suspension_arm_B2_L_1
+            - ref:suspension_arm_B2_R_0
+            - ref:suspension_arm_B2_R_1
+            - ref:suspension_arm_B_L_0
+            - ref:suspension_arm_B_L_11
+            - ref:suspension_arm_B_R_01
+            - ref:suspension_arm_B_R_1
+            - ref:suspension_arm_F_L_0
+            - ref:suspension_arm_F_L_1
+            - ref:suspension_arm_F_R_0
+            - ref:suspension_arm_F_R_1
+            - ref:suspension_axel_L2_0
+            - ref:suspension_axel_L_0
+            - ref:suspension_axel_R2_0
+            - ref:suspension_axel_R_0
+            - ref:suspension_rod_L_0
+            - ref:suspension_rod_R_0
+            - ref:suspension_steer_B_L_0
+            - ref:suspension_steer_B_L_1
+            - ref:suspension_steer_B_R_0
+            - ref:suspension_steer_B_R_1
+            - ref:suspension_steer_F_L_0
+            - ref:suspension_steer_F_L_1
+            - ref:suspension_steer_F_R_0
+            - ref:suspension_steer_F_R_1
+            - ref:suspension_xmember_0
+            - ref:suspension_xmember_1
+            - ref:wheel_01_L_0
+            - ref:wheel_01_R_0
+            - ref:wheel_02_L_0
+            - ref:wheel_02_R_01
+            - ref:wheel_03_L_0
+            - ref:wheel_03_R_0
+            - ref:Take 01
+        com.meta.components.Name:
+          name: scene
+  com.meta.models.AssetRoot:
+    - components:
+        com.meta.components.AssetMetadata:
+          {}
+        com.meta.components.AssetRoot:
+          defaultScene: ref:Scene
+          scenes:
+            - ref:Scene
+  com.meta.models.Geometry:
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry101.bin
+      tag: Geometry101
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry100.bin
+      tag: Geometry100
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry99.bin
+      tag: Geometry99
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry98.bin
+      tag: Geometry98
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry97.bin
+      tag: Geometry97
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry96.bin
+      tag: Geometry96
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry95.bin
+      tag: Geometry95
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry94.bin
+      tag: Geometry94
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry93.bin
+      tag: Geometry93
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry92.bin
+      tag: Geometry92
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry91.bin
+      tag: Geometry91
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry90.bin
+      tag: Geometry90
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry89.bin
+      tag: Geometry89
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry88.bin
+      tag: Geometry88
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry87.bin
+      tag: Geometry87
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry86.bin
+      tag: Geometry86
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry85.bin
+      tag: Geometry85
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry84.bin
+      tag: Geometry84
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry83.bin
+      tag: Geometry83
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry82.bin
+      tag: Geometry82
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry81.bin
+      tag: Geometry81
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry80.bin
+      tag: Geometry80
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry79.bin
+      tag: Geometry79
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry78.bin
+      tag: Geometry78
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry77.bin
+      tag: Geometry77
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry76.bin
+      tag: Geometry76
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry75.bin
+      tag: Geometry75
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry74.bin
+      tag: Geometry74
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry73.bin
+      tag: Geometry73
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry72.bin
+      tag: Geometry72
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry71.bin
+      tag: Geometry71
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry70.bin
+      tag: Geometry70
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry69.bin
+      tag: Geometry69
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry68.bin
+      tag: Geometry68
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry67.bin
+      tag: Geometry67
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry66.bin
+      tag: Geometry66
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry65.bin
+      tag: Geometry65
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry64.bin
+      tag: Geometry64
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry63.bin
+      tag: Geometry63
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry62.bin
+      tag: Geometry62
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry61.bin
+      tag: Geometry61
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry60.bin
+      tag: Geometry60
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry59.bin
+      tag: Geometry59
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry58.bin
+      tag: Geometry58
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry57.bin
+      tag: Geometry57
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry56.bin
+      tag: Geometry56
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry55.bin
+      tag: Geometry55
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry54.bin
+      tag: Geometry54
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry53.bin
+      tag: Geometry53
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry52.bin
+      tag: Geometry52
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry51.bin
+      tag: Geometry51
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry50.bin
+      tag: Geometry50
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry49.bin
+      tag: Geometry49
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry48.bin
+      tag: Geometry48
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry47.bin
+      tag: Geometry47
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry46.bin
+      tag: Geometry46
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry45.bin
+      tag: Geometry45
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry44.bin
+      tag: Geometry44
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry43.bin
+      tag: Geometry43
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry42.bin
+      tag: Geometry42
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry41.bin
+      tag: Geometry41
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry40.bin
+      tag: Geometry40
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry39.bin
+      tag: Geometry39
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry38.bin
+      tag: Geometry38
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry37.bin
+      tag: Geometry37
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry36.bin
+      tag: Geometry36
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry35.bin
+      tag: Geometry35
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry34.bin
+      tag: Geometry34
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry33.bin
+      tag: Geometry33
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry32.bin
+      tag: Geometry32
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry31.bin
+      tag: Geometry31
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry30.bin
+      tag: Geometry30
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry29.bin
+      tag: Geometry29
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry28.bin
+      tag: Geometry28
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry27.bin
+      tag: Geometry27
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry26.bin
+      tag: Geometry26
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry25.bin
+      tag: Geometry25
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry24.bin
+      tag: Geometry24
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry23.bin
+      tag: Geometry23
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry22.bin
+      tag: Geometry22
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry21.bin
+      tag: Geometry21
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry20.bin
+      tag: Geometry20
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry19.bin
+      tag: Geometry19
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry18.bin
+      tag: Geometry18
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry17.bin
+      tag: Geometry17
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry16.bin
+      tag: Geometry16
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry15.bin
+      tag: Geometry15
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry14.bin
+      tag: Geometry14
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry13.bin
+      tag: Geometry13
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry12.bin
+      tag: Geometry12
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry11.bin
+      tag: Geometry11
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry10.bin
+      tag: Geometry10
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry9.bin
+      tag: Geometry9
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry8.bin
+      tag: Geometry8
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry7.bin
+      tag: Geometry7
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry6.bin
+      tag: Geometry6
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry5.bin
+      tag: Geometry5
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry4.bin
+      tag: Geometry4
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry3.bin
+      tag: Geometry3
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry2.bin
+      tag: Geometry2
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry1.bin
+      tag: Geometry1
+    - components:
+        com.meta.components.Geometry:
+          data: binary/Geometry.bin
+      tag: Geometry
+  com.meta.models.Image:
+    - components:
+        com.meta.components.Asset:
+          path: assets/tex_05_baseColor.png
+        com.meta.components.Image:
+          height: 512
+          mimeType: image/png
+          width: 512
+        com.meta.components.Name:
+          name: tex_05_baseColor
+      tag: tex_05_baseColor
+    - components:
+        com.meta.components.Asset:
+          path: assets/tex_03_baseColor.png
+        com.meta.components.Image:
+          height: 1024
+          mimeType: image/png
+          width: 1024
+        com.meta.components.Name:
+          name: tex_03_baseColor
+      tag: tex_03_baseColor
+    - components:
+        com.meta.components.Asset:
+          path: assets/tex_03_n_normal.png
+        com.meta.components.Image:
+          height: 1024
+          mimeType: image/png
+          width: 1024
+        com.meta.components.Name:
+          name: tex_03_n_normal
+      tag: tex_03_n_normal
+    - components:
+        com.meta.components.Asset:
+          path: assets/tex_04_baseColor.png
+        com.meta.components.Image:
+          height: 1024
+          mimeType: image/png
+          width: 1024
+        com.meta.components.Name:
+          name: tex_04_baseColor
+      tag: tex_04_baseColor
+    - components:
+        com.meta.components.Asset:
+          path: assets/parts_AO_baseColor.png
+        com.meta.components.Image:
+          height: 1024
+          mimeType: image/png
+          width: 1024
+        com.meta.components.Name:
+          name: parts_AO_baseColor
+      tag: parts_AO_baseColor
+    - components:
+        com.meta.components.Asset:
+          path: assets/parts_AO_metallicRoughness.png
+        com.meta.components.Image:
+          height: 1024
+          mimeType: image/png
+          width: 1024
+        com.meta.components.Name:
+          name: parts_AO_metallicRoughness
+      tag: parts_AO_metallicRoughness
+    - components:
+        com.meta.components.Asset:
+          path: assets/tex_02_baseColor.png
+        com.meta.components.Image:
+          height: 1024
+          mimeType: image/png
+          width: 1024
+        com.meta.components.Name:
+          name: tex_02_baseColor
+      tag: tex_02_baseColor
+    - components:
+        com.meta.components.Asset:
+          path: assets/tex_01_baseColor.png
+        com.meta.components.Image:
+          height: 1024
+          mimeType: image/png
+          width: 1024
+        com.meta.components.Name:
+          name: tex_01_baseColor
+      tag: tex_01_baseColor
+  com.meta.models.Material:
+    - uri: docref:materials/tex_02.metaspatialmaterial
+      tag: tex_02
+    - uri: docref:materials/tex_03.metaspatialmaterial
+      tag: tex_03
+    - uri: docref:materials/tex_04.metaspatialmaterial
+      tag: tex_04
+    - uri: docref:materials/tex_03_n.metaspatialmaterial
+      tag: tex_03_n
+    - uri: docref:materials/white_LED.metaspatialmaterial
+      tag: white_LED
+    - uri: docref:materials/tex_03.metaspatialmaterial
+      tag: tex_03.002
+    - uri: docref:materials/parts_AO.metaspatialmaterial
+      tag: parts_AO
+    - uri: docref:materials/tex_05.metaspatialmaterial
+      tag: tex_05
+    - uri: docref:materials/tex_01.metaspatialmaterial
+      tag: tex_01
+    - uri: docref:materials/tex_01.metaspatialmaterial
+      tag: tex_01.001
+  com.meta.models.Mesh:
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive53
+        com.meta.components.Name:
+          name: antenna_UHF_0
+      tag: antenna_UHF_01
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive55
+        com.meta.components.Name:
+          name: CHIMERA_0
+      tag: CHIMERA_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive54
+        com.meta.components.Name:
+          name: body_5
+      tag: body_51
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive82
+        com.meta.components.Name:
+          name: APXS_0
+      tag: APXS_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive42
+        com.meta.components.Name:
+          name: suspension_arm_F_R_0
+      tag: suspension_arm_F_R_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive84
+        com.meta.components.Name:
+          name: cover_02_0
+      tag: cover_02_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive11
+        com.meta.components.Name:
+          name: suspension_arm_B_L_0
+      tag: suspension_arm_B_L_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive94
+        com.meta.components.Name:
+          name: suspension_axel_R_0
+      tag: suspension_axel_R_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive30
+        com.meta.components.Name:
+          name: suspension_steer_B_L_1
+      tag: suspension_steer_B_L_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive92
+        com.meta.components.Name:
+          name: body_4
+      tag: body_4
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive52
+        com.meta.components.Name:
+          name: MARDI.001_0
+      tag: MARDI.001_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive85
+        com.meta.components.Name:
+          name: Dust Removal Tool_0
+      tag: Dust Removal Tool_01
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive35
+        com.meta.components.Name:
+          name: arm_02.001_0
+      tag: arm_02.001_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive72
+        com.meta.components.Name:
+          name: Chassis_3
+      tag: Chassis_3
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive59
+        com.meta.components.Name:
+          name: antenna_LG_0
+      tag: antenna_LG_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive87
+        com.meta.components.Name:
+          name: suspension_arm_B_R_0
+      tag: suspension_arm_B_R_01
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive38
+        com.meta.components.Name:
+          name: sundial_0
+      tag: sundial_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive49
+        com.meta.components.Name:
+          name: wheel_02_L_0
+      tag: wheel_02_L_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive
+        com.meta.components.Name:
+          name: arm_03.001_3
+      tag: arm_03.001_31
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive99
+        com.meta.components.Name:
+          name: mast_01.001_0
+      tag: mast_01.001_01
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive76
+        com.meta.components.Name:
+          name: suspension_arm_B_L_1
+      tag: suspension_arm_B_L_11
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive37
+        com.meta.components.Name:
+          name: antenna_HG_01_0
+      tag: antenna_HG_01_01
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive96
+        com.meta.components.Name:
+          name: arm_02.001_1
+      tag: arm_02.001_11
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive22
+        com.meta.components.Name:
+          name: suspension_steer_F_R_0
+      tag: suspension_steer_F_R_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive65
+        com.meta.components.Name:
+          name: MAHLI_LED_04_0
+      tag: MAHLI_LED_04_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive81
+        com.meta.components.Name:
+          name: arm_04.001_1
+      tag: arm_04.001_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive28
+        com.meta.components.Name:
+          name: Chassis_2
+      tag: Chassis_2
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive41
+        com.meta.components.Name:
+          name: body_3
+      tag: body_3
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive57
+        com.meta.components.Name:
+          name: arm_04.001_0
+      tag: arm_04.001_01
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive46
+        com.meta.components.Name:
+          name: cover_01_0
+      tag: cover_01_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive70
+        com.meta.components.Name:
+          name: bit_01.001_0
+      tag: bit_01.001_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive13
+        com.meta.components.Name:
+          name: arm_03.001_0
+      tag: arm_03.001_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive43
+        com.meta.components.Name:
+          name: HazCam - front_0
+      tag: HazCam - front_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive48
+        com.meta.components.Name:
+          name: HazCam - rear_0
+      tag: HazCam - rear_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive89
+        com.meta.components.Name:
+          name: MAHLI_LED_02_0
+      tag: MAHLI_LED_02_01
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive17
+        com.meta.components.Name:
+          name: bit_02_0
+      tag: bit_02_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive25
+        com.meta.components.Name:
+          name: wheel_03_R_0
+      tag: wheel_03_R_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive86
+        com.meta.components.Name:
+          name: lens_covers_front_0
+      tag: lens_covers_front_01
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive95
+        com.meta.components.Name:
+          name: body_2
+      tag: body_2
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive77
+        com.meta.components.Name:
+          name: suspension_rod_R_0
+      tag: suspension_rod_R_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive5
+        com.meta.components.Name:
+          name: suspension_axel_L2_0
+      tag: suspension_axel_L2_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive91
+        com.meta.components.Name:
+          name: suspension_steer_F_R_1
+      tag: suspension_steer_F_R_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive63
+        com.meta.components.Name:
+          name: MAHLI_cal_target_0
+      tag: MAHLI_cal_target_01
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive93
+        com.meta.components.Name:
+          name: suspension_steer_B_R_0
+      tag: suspension_steer_B_R_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive18
+        com.meta.components.Name:
+          name: wheel_02_R_0
+      tag: wheel_02_R_01
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive3
+        com.meta.components.Name:
+          name: mast_03.001_0
+      tag: mast_03.001_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive83
+        com.meta.components.Name:
+          name: CheMin_0
+      tag: CheMin_01
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive98
+        com.meta.components.Name:
+          name: suspension_xmember_0
+      tag: suspension_xmember_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive90
+        com.meta.components.Name:
+          name: suspension_arm_F_L_1
+      tag: suspension_arm_F_L_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive56
+        com.meta.components.Name:
+          name: bit_03_0
+      tag: bit_03_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive79
+        com.meta.components.Name:
+          name: wheel_01_R_0
+      tag: wheel_01_R_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive88
+        com.meta.components.Name:
+          name: suspension_arm_F_L_0
+      tag: suspension_arm_F_L_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive16
+        com.meta.components.Name:
+          name: suspension_steer_B_R_1
+      tag: suspension_steer_B_R_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive68
+        com.meta.components.Name:
+          name: suspension_arm_B2_L_0
+      tag: suspension_arm_B2_L_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive75
+        com.meta.components.Name:
+          name: SAM_0
+      tag: SAM_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive78
+        com.meta.components.Name:
+          name: DAN_L_0
+      tag: DAN_L_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive80
+        com.meta.components.Name:
+          name: wheel_01_L_0
+      tag: wheel_01_L_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive33
+        com.meta.components.Name:
+          name: suspension_xmember_1
+      tag: suspension_xmember_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive40
+        com.meta.components.Name:
+          name: RTG_0
+      tag: RTG_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive101
+        com.meta.components.Name:
+          name: suspension_axel_R2_0
+      tag: suspension_axel_R2_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive10
+        com.meta.components.Name:
+          name: Chassis_0
+      tag: Chassis_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive7
+        com.meta.components.Name:
+          name: RAD_0
+      tag: RAD_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive66
+        com.meta.components.Name:
+          name: suspension_arm_B2_R_1
+      tag: suspension_arm_B2_R_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive73
+        com.meta.components.Name:
+          name: NavCam_0
+      tag: NavCam_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive8
+        com.meta.components.Name:
+          name: suspension_arm_B2_L_1
+      tag: suspension_arm_B2_L_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive29
+        com.meta.components.Name:
+          name: suspension_arm_F_R_1
+      tag: suspension_arm_F_R_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive9
+        com.meta.components.Name:
+          name: arm_02.001_3
+      tag: arm_02.001_3
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive21
+        com.meta.components.Name:
+          name: wheel_03_L_0
+      tag: wheel_03_L_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive23
+        com.meta.components.Name:
+          name: suspension_steer_B_L_0
+      tag: suspension_steer_B_L_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive20
+        com.meta.components.Name:
+          name: arm_03.001_2
+      tag: arm_03.001_2
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive15
+        com.meta.components.Name:
+          name: suspension_rod_L_0
+      tag: suspension_rod_L_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive32
+        com.meta.components.Name:
+          name: MAHLI_LED_01_0
+      tag: MAHLI_LED_01_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive14
+        com.meta.components.Name:
+          name: arm_02.001_2
+      tag: arm_02.001_2
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive71
+        com.meta.components.Name:
+          name: Drill_1
+      tag: Drill_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive4
+        com.meta.components.Name:
+          name: MAHLI_LED_03_0
+      tag: MAHLI_LED_03_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive1
+        com.meta.components.Name:
+          name: MAHLI_lens_cover_0
+      tag: MAHLI_lens_cover_01
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive31
+        com.meta.components.Name:
+          name: Drill_0
+      tag: Drill_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive64
+        com.meta.components.Name:
+          name: suspension_axel_L_0
+      tag: suspension_axel_L_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive27
+        com.meta.components.Name:
+          name: radiators_0
+      tag: radiators_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive58
+        com.meta.components.Name:
+          name: suspension_arm_B2_R_0
+      tag: suspension_arm_B2_R_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive2
+        com.meta.components.Name:
+          name: REMS_0
+      tag: REMS_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive62
+        com.meta.components.Name:
+          name: MAHLI_0
+      tag: MAHLI_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive74
+        com.meta.components.Name:
+          name: mast_01.000_0
+      tag: mast_01.000_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive34
+        com.meta.components.Name:
+          name: suspension_arm_B_R_1
+      tag: suspension_arm_B_R_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive60
+        com.meta.components.Name:
+          name: CHIMERA_1
+      tag: CHIMERA_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive12
+        com.meta.components.Name:
+          name: arm_01.001_1
+      tag: arm_01.001_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive69
+        com.meta.components.Name:
+          name: arm_01.001_0
+      tag: arm_01.001_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive100
+        com.meta.components.Name:
+          name: MastCam_0
+      tag: MastCam_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive50
+        com.meta.components.Name:
+          name: suspension_steer_F_L_1
+      tag: suspension_steer_F_L_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive36
+        com.meta.components.Name:
+          name: body_1
+      tag: body_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive26
+        com.meta.components.Name:
+          name: body_0
+      tag: body_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive67
+        com.meta.components.Name:
+          name: body.001_0
+      tag: body.001_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive61
+        com.meta.components.Name:
+          name: ChemCam_0
+      tag: ChemCam_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive45
+        com.meta.components.Name:
+          name: suspension_steer_F_L_0
+      tag: suspension_steer_F_L_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive47
+        com.meta.components.Name:
+          name: mast_02.001_0
+      tag: mast_02.001_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive97
+        com.meta.components.Name:
+          name: arm_05_head.001_0
+      tag: arm_05_head.001_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive6
+        com.meta.components.Name:
+          name: DAN_R_0
+      tag: DAN_R_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive39
+        com.meta.components.Name:
+          name: antenna_HG_03_0
+      tag: antenna_HG_03_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive51
+        com.meta.components.Name:
+          name: Chassis_1
+      tag: Chassis_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive44
+        com.meta.components.Name:
+          name: lens_covers_rear_0
+      tag: lens_covers_rear_0
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive19
+        com.meta.components.Name:
+          name: arm_03.001_1
+      tag: arm_03.001_1
+    - components:
+        com.meta.components.Mesh:
+          morphTargetNames:
+            []
+          morphTargetWeights:
+            []
+          primitives:
+            - ref:Primitive24
+        com.meta.components.Name:
+          name: cover_03_0
+      tag: cover_03_0
+  com.meta.models.Primitive:
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry32
+          material: ref:tex_03
+      tag: Primitive101
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry68
+          material: ref:tex_04
+      tag: Primitive100
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry39
+          material: ref:tex_04
+      tag: Primitive99
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry41
+          material: ref:tex_02
+      tag: Primitive98
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry51
+          material: ref:tex_04
+      tag: Primitive97
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry53
+          material: ref:tex_03
+      tag: Primitive96
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry19
+          material: ref:tex_04
+      tag: Primitive95
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry88
+          material: ref:tex_03.002
+      tag: Primitive94
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry99
+          material: ref:tex_03
+      tag: Primitive93
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry26
+          material: ref:tex_01.001
+      tag: Primitive92
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry30
+          material: ref:tex_02
+      tag: Primitive91
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry100
+          material: ref:tex_05
+      tag: Primitive90
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry28
+          material: ref:white_LED
+      tag: Primitive89
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry3
+          material: ref:tex_03
+      tag: Primitive88
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry37
+          material: ref:tex_03
+      tag: Primitive87
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry97
+          material: ref:parts_AO
+      tag: Primitive86
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry96
+          material: ref:tex_04
+      tag: Primitive85
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry12
+          material: ref:tex_01
+      tag: Primitive84
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry18
+          material: ref:tex_01
+      tag: Primitive83
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry34
+          material: ref:tex_04
+      tag: Primitive82
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry94
+          material: ref:tex_01
+      tag: Primitive81
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry14
+          material: ref:tex_03_n
+      tag: Primitive80
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry98
+          material: ref:tex_03_n
+      tag: Primitive79
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry49
+          material: ref:tex_02
+      tag: Primitive78
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry93
+          material: ref:tex_03
+      tag: Primitive77
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry44
+          material: ref:tex_05
+      tag: Primitive76
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry87
+          material: ref:tex_01
+      tag: Primitive75
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry5
+          material: ref:tex_04
+      tag: Primitive74
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry86
+          material: ref:tex_04
+      tag: Primitive73
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry24
+          material: ref:tex_05
+      tag: Primitive72
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry84
+          material: ref:tex_05
+      tag: Primitive71
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry81
+          material: ref:tex_03
+      tag: Primitive70
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry56
+          material: ref:tex_03
+      tag: Primitive69
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry7
+          material: ref:tex_03
+      tag: Primitive68
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry63
+          material: ref:tex_03
+      tag: Primitive67
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry69
+          material: ref:tex_02
+      tag: Primitive66
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry1
+          material: ref:white_LED
+      tag: Primitive65
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry78
+          material: ref:tex_03.002
+      tag: Primitive64
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry22
+          material: ref:tex_05
+      tag: Primitive63
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry59
+          material: ref:tex_04
+      tag: Primitive62
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry9
+          material: ref:tex_04
+      tag: Primitive61
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry13
+          material: ref:tex_05
+      tag: Primitive60
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry64
+          material: ref:tex_02
+      tag: Primitive59
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry74
+          material: ref:tex_03
+      tag: Primitive58
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry2
+          material: ref:tex_03
+      tag: Primitive57
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry52
+          material: ref:tex_03
+      tag: Primitive56
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry48
+          material: ref:tex_04
+      tag: Primitive55
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry101
+          material: ref:parts_AO
+      tag: Primitive54
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry42
+          material: ref:tex_02
+      tag: Primitive53
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry27
+          material: ref:tex_03
+      tag: Primitive52
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry58
+          material: ref:tex_01
+      tag: Primitive51
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry67
+          material: ref:tex_02
+      tag: Primitive50
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry95
+          material: ref:tex_03_n
+      tag: Primitive49
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry65
+          material: ref:tex_02
+      tag: Primitive48
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry60
+          material: ref:tex_04
+      tag: Primitive47
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry29
+          material: ref:tex_01
+      tag: Primitive46
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry40
+          material: ref:tex_03
+      tag: Primitive45
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry8
+          material: ref:parts_AO
+      tag: Primitive44
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry10
+          material: ref:tex_02
+      tag: Primitive43
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry21
+          material: ref:tex_03
+      tag: Primitive42
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry4
+          material: ref:tex_03
+      tag: Primitive41
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry33
+          material: ref:tex_03
+      tag: Primitive40
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry57
+          material: ref:tex_02
+      tag: Primitive39
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry54
+          material: ref:tex_01
+      tag: Primitive38
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry55
+          material: ref:tex_02
+      tag: Primitive37
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry43
+          material: ref:tex_02
+      tag: Primitive36
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry50
+          material: ref:tex_01
+      tag: Primitive35
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry76
+          material: ref:tex_05
+      tag: Primitive34
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry36
+          material: ref:tex_05
+      tag: Primitive33
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry23
+          material: ref:white_LED
+      tag: Primitive32
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry79
+          material: ref:tex_04
+      tag: Primitive31
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry38
+          material: ref:tex_02
+      tag: Primitive30
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry20
+          material: ref:tex_05
+      tag: Primitive29
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry45
+          material: ref:tex_02
+      tag: Primitive28
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry77
+          material: ref:tex_03
+      tag: Primitive27
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry66
+          material: ref:tex_01
+      tag: Primitive26
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry15
+          material: ref:tex_03_n
+      tag: Primitive25
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry11
+          material: ref:tex_01
+      tag: Primitive24
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry89
+          material: ref:tex_03
+      tag: Primitive23
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry83
+          material: ref:tex_03
+      tag: Primitive22
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry82
+          material: ref:tex_03_n
+      tag: Primitive21
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry90
+          material: ref:tex_04
+      tag: Primitive20
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry17
+          material: ref:tex_01
+      tag: Primitive19
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry61
+          material: ref:tex_03_n
+      tag: Primitive18
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry16
+          material: ref:tex_03
+      tag: Primitive17
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry6
+          material: ref:tex_02
+      tag: Primitive16
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry46
+          material: ref:tex_03
+      tag: Primitive15
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry70
+          material: ref:tex_04
+      tag: Primitive14
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry47
+          material: ref:tex_03
+      tag: Primitive13
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry72
+          material: ref:tex_01
+      tag: Primitive12
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry
+          material: ref:tex_03
+      tag: Primitive11
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry92
+          material: ref:tex_03
+      tag: Primitive10
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry71
+          material: ref:tex_05
+      tag: Primitive9
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry91
+          material: ref:tex_02
+      tag: Primitive8
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry35
+          material: ref:tex_01
+      tag: Primitive7
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry25
+          material: ref:tex_02
+      tag: Primitive6
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry62
+          material: ref:tex_03
+      tag: Primitive5
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry85
+          material: ref:white_LED
+      tag: Primitive4
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry31
+          material: ref:tex_04
+      tag: Primitive3
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry75
+          material: ref:tex_01
+      tag: Primitive2
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry80
+          material: ref:tex_04
+      tag: Primitive1
+    - components:
+        com.meta.components.Primitive:
+          mode: Triangles
+          geometry: ref:Geometry73
+          material: ref:tex_05
+      tag: Primitive
+  com.meta.models.Sampler:
+    - components:
+        com.meta.components.Name:
+          name: sampler0
+        com.meta.components.Sampler:
+          magFilter: Linear
+          minFilter: LinearMipmapLinear
+          wrapS: Repeat
+          wrapT: Repeat
+      tag: sampler0
+  com.meta.models.Texture:
+    - uri: docref:textures/texture5.metaspatialtexture
+      tag: texture5
+    - uri: docref:textures/texture4.metaspatialtexture
+      tag: texture4
+    - uri: docref:textures/texture8.metaspatialtexture
+      tag: texture8
+    - uri: docref:textures/texture2.metaspatialtexture
+      tag: texture2
+    - uri: docref:textures/texture1.metaspatialtexture
+      tag: texture1
+    - uri: docref:textures/texture6.metaspatialtexture
+      tag: texture6
+    - uri: docref:textures/texture7.metaspatialtexture
+      tag: texture7
+    - uri: docref:textures/texture3.metaspatialtexture
+      tag: texture3
+metadata:
+  version: 1.0

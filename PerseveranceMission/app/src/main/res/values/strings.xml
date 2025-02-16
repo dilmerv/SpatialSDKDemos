@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="perseverance_details">The Mars 2020 Perseverance Rover searches for signs of ancient microbial life, to advance NASA\'s quest to explore the past habitability of Mars. The rover is collecting core samples of Martian rock and regolith (broken rock and soil), for potential pickup by a future mission that would bring them to Earth for detailed study.</string>
+    <string name="show_mars">Show Mars</string>
+    <string name="hide_mars">Hide Mars</string>
+    <string name="show_perseverance">Show Robot Animated</string>
+    <string name="hide_perseverance">Hide Robot Animated</string>
+    <string name="set_day_mode">Set Day Mode</string>
+    <string name="set_night_mode">Set Night Mode</string>
+    <string name="Rotator_speed">Rotator Speed</string>
+    <string name="mr_mode_on">Turn MR Mode On</string>
+    <string name="mr_mode_off">Turn MR Mode Off</string>
+</resources>

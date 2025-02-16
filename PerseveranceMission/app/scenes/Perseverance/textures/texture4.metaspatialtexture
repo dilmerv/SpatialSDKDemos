@@ -1,0 +1,9 @@
+entities:
+  components:
+    com.meta.components.Name:
+      name: texture4
+    com.meta.components.Texture:
+      image: ref:tex_05_baseColor
+      sampler: ref:sampler0
+metadata:
+  version: 1.0
